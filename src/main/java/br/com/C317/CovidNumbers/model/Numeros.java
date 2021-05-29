@@ -6,7 +6,9 @@ public class Numeros {
 	private String mes;
 	private int numeroObito;
 	private int numeroRecuperados;
-	private int numeroInfectados;
+	private int numeroCasosConfirmados;
+	private Double porcentagemObito;
+	private Double porcentagemRecuperados;
 	
 	
 	public String getMes() {
@@ -27,13 +29,25 @@ public class Numeros {
 	public void setNumeroRecuperados(int numeroRecuperados) {
 		this.numeroRecuperados = numeroRecuperados;
 	}
-	public int getNumeroInfectados() {
-		return numeroInfectados;
-	}
-	public void setNumeroInfectados(int numeroInfectados) {
-		this.numeroInfectados = numeroInfectados;
-	}
 	
+	public Double getPorcentagemObito() {
+		return porcentagemObito;
+	}
+	public void setPorcentagemObito(Double porcentagemObito) {
+		this.porcentagemObito = porcentagemObito;
+	}
+	public int getNumeroCasosConfirmados() {
+		return numeroCasosConfirmados;
+	}
+	public void setNumeroCasosConfirmados(int numeroCasosConfirmados) {
+		this.numeroCasosConfirmados = numeroCasosConfirmados;
+	}
+	public Double getPorcentagemRecuperados() {
+		return porcentagemRecuperados;
+	}
+	public void setPorcentagemRecuperados(Double porcentagemRecuperados) {
+		this.porcentagemRecuperados = porcentagemRecuperados;
+	}
 	
 	
 }
